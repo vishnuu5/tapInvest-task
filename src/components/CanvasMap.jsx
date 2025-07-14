@@ -56,10 +56,11 @@ const CanvasMap = ({ path }) => {
         <div style={{ marginTop: '20px' }}>
             <canvas
                 ref={canvasRef}
-                width={600}
+                width={window.innerWidth < 700 ? 300 : 600}
                 height={400}
-                style={{ border: '1px solid black', backgroundColor: '#fff' }}
+                style={{ border: '1px solid black', backgroundColor: '#fff', width: '100%', height: 'auto' }}
             />
+
         </div>
     );
 };
