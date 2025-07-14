@@ -51,5 +51,6 @@ Canvas API --- Draws jogging path (blue line + red dot)
 Network Info API --- Shows current network type (e.g., 4g)
 Start/Stop Control --- Start and stop tracking anytime
 
-License
+## License
+
 This project is open-source and available under the MIT License.
